@@ -1,3 +1,1 @@
 ﻿echo e
-exit
-exit
