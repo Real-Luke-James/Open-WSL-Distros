@@ -7,4 +7,12 @@
 
   <Import Project="..\SetupItems\SetupItems.projitems" Label="Shared" />
 
+  <ItemGroup>
+    <None Remove="test.bat" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="test.bat" />
+  </ItemGroup>
+
 </Project>
