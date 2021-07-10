@@ -76,5 +76,15 @@ namespace Open_WSL_Distros
 		{
 			System.Diagnostics.Process.Start("ubuntu1604.exe");
 		}
+
+		private void label4_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button1_Click_1(object sender, EventArgs e)
+		{
+			System.Diagnostics.Process.Start("debian.exe");
+		}
 	}
 }

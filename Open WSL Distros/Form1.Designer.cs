@@ -39,6 +39,8 @@ namespace Open_WSL_Distros
 			this.ubuntu3 = new System.Windows.Forms.Button();
 			this.ubuntu4 = new System.Windows.Forms.Button();
 			this.label3 = new System.Windows.Forms.Label();
+			this.label4 = new System.Windows.Forms.Label();
+			this.debian = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			this.SuspendLayout();
@@ -135,12 +137,35 @@ namespace Open_WSL_Distros
 			this.label3.Text = "Ubuntu";
 			this.label3.Click += new System.EventHandler(this.label3_Click);
 			// 
+			// label4
+			// 
+			this.label4.AutoSize = true;
+			this.label4.Font = new System.Drawing.Font("Cascadia Mono", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+			this.label4.Location = new System.Drawing.Point(670, 188);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(386, 25);
+			this.label4.TabIndex = 9;
+			this.label4.Text = "Debian / Debian Based (ex. Ubuntu)";
+			this.label4.Click += new System.EventHandler(this.label4_Click);
+			// 
+			// debian
+			// 
+			this.debian.Location = new System.Drawing.Point(653, 250);
+			this.debian.Name = "debian";
+			this.debian.Size = new System.Drawing.Size(75, 23);
+			this.debian.TabIndex = 10;
+			this.debian.Text = "Debian";
+			this.debian.UseVisualStyleBackColor = true;
+			this.debian.Click += new System.EventHandler(this.button1_Click_1);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.ClientSize = new System.Drawing.Size(1124, 617);
+			this.Controls.Add(this.debian);
+			this.Controls.Add(this.label4);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.ubuntu4);
 			this.Controls.Add(this.ubuntu3);
@@ -172,6 +197,8 @@ namespace Open_WSL_Distros
 		private System.Windows.Forms.Button ubuntu3;
 		private System.Windows.Forms.Button ubuntu4;
 		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Button debian;
 	}
 }
 

@@ -61,13 +61,21 @@ namespace Open_WSL_Distros.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to string strCmdText;
-        ///strCmdText = &quot;&lt;text&gt;&quot;;
-        ///System.Diagnostics.Process.Start(&quot;wsl.exe&quot;,strCmdText);.
+        ///   Looks up a localized string similar to System.Diagnostics.Process.Start(&quot;&lt;distro&gt;.exe&quot;);.
         /// </summary>
         internal static string cmdline {
             get {
                 return ResourceManager.GetString("cmdline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap debian {
+            get {
+                object obj = ResourceManager.GetObject("debian", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
