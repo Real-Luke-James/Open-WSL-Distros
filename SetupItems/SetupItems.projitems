@@ -9,5 +9,6 @@
     <Import_RootNamespace>SetupItems</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)test.bat" />
   </ItemGroup>
 </Project>
