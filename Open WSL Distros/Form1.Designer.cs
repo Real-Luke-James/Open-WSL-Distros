@@ -41,8 +41,15 @@ namespace Open_WSL_Distros
 			this.label3 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
 			this.debian = new System.Windows.Forms.Button();
+			this.pictureBox3 = new System.Windows.Forms.PictureBox();
+			this.button1 = new System.Windows.Forms.Button();
+			this.label5 = new System.Windows.Forms.Label();
+			this.button2 = new System.Windows.Forms.Button();
+			this.pictureBox4 = new System.Windows.Forms.PictureBox();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -150,7 +157,7 @@ namespace Open_WSL_Distros
 			// 
 			// debian
 			// 
-			this.debian.Location = new System.Drawing.Point(653, 250);
+			this.debian.Location = new System.Drawing.Point(781, 251);
 			this.debian.Name = "debian";
 			this.debian.Size = new System.Drawing.Size(75, 23);
 			this.debian.TabIndex = 10;
@@ -158,12 +165,66 @@ namespace Open_WSL_Distros
 			this.debian.UseVisualStyleBackColor = true;
 			this.debian.Click += new System.EventHandler(this.button1_Click_1);
 			// 
+			// pictureBox3
+			// 
+			this.pictureBox3.Image = global::Open_WSL_Distros.Properties.Resources.debian;
+			this.pictureBox3.Location = new System.Drawing.Point(725, 238);
+			this.pictureBox3.Name = "pictureBox3";
+			this.pictureBox3.Size = new System.Drawing.Size(50, 50);
+			this.pictureBox3.TabIndex = 11;
+			this.pictureBox3.TabStop = false;
+			// 
+			// button1
+			// 
+			this.button1.Location = new System.Drawing.Point(862, 251);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(75, 23);
+			this.button1.TabIndex = 12;
+			this.button1.Text = "Kali Linux";
+			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.button1_Click_2);
+			// 
+			// label5
+			// 
+			this.label5.AutoSize = true;
+			this.label5.Font = new System.Drawing.Font("Cascadia Mono", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+			this.label5.Location = new System.Drawing.Point(385, 333);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(188, 25);
+			this.label5.TabIndex = 13;
+			this.label5.Text = "Indivual Distros";
+			this.label5.Click += new System.EventHandler(this.label5_Click);
+			// 
+			// button2
+			// 
+			this.button2.Location = new System.Drawing.Point(440, 401);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(133, 23);
+			this.button2.TabIndex = 14;
+			this.button2.Text = "openSUSE Leap 15.2";
+			this.button2.UseVisualStyleBackColor = true;
+			this.button2.Click += new System.EventHandler(this.button2_Click_1);
+			// 
+			// pictureBox4
+			// 
+			this.pictureBox4.Image = global::Open_WSL_Distros.Properties.Resources.openSUSE;
+			this.pictureBox4.Location = new System.Drawing.Point(385, 390);
+			this.pictureBox4.Name = "pictureBox4";
+			this.pictureBox4.Size = new System.Drawing.Size(49, 50);
+			this.pictureBox4.TabIndex = 15;
+			this.pictureBox4.TabStop = false;
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.ClientSize = new System.Drawing.Size(1124, 617);
+			this.Controls.Add(this.pictureBox4);
+			this.Controls.Add(this.button2);
+			this.Controls.Add(this.label5);
+			this.Controls.Add(this.button1);
+			this.Controls.Add(this.pictureBox3);
 			this.Controls.Add(this.debian);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.label3);
@@ -181,6 +242,8 @@ namespace Open_WSL_Distros
 			this.Load += new System.EventHandler(this.Form1_Load);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -199,6 +262,11 @@ namespace Open_WSL_Distros
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Button debian;
+		private System.Windows.Forms.PictureBox pictureBox3;
+		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.Button button2;
+		private System.Windows.Forms.PictureBox pictureBox4;
 	}
 }
 

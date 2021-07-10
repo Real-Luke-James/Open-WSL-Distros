@@ -86,5 +86,20 @@ namespace Open_WSL_Distros
 		{
 			System.Diagnostics.Process.Start("debian.exe");
 		}
+
+		private void button1_Click_2(object sender, EventArgs e)
+		{
+			System.Diagnostics.Process.Start("kali.exe");
+		}
+
+		private void label5_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button2_Click_1(object sender, EventArgs e)
+		{
+			System.Diagnostics.Process.Start("openSUSE-Leap-15.2.exe");
+		}
 	}
 }

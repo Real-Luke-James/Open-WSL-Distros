@@ -82,6 +82,16 @@ namespace Open_WSL_Distros.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap openSUSE {
+            get {
+                object obj = ResourceManager.GetObject("openSUSE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Ubuntu {
             get {
                 object obj = ResourceManager.GetObject("Ubuntu", resourceCulture);
