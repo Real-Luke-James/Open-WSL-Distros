@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Open WSL Distros", "Open WS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWSLDistrosSetup", "OpenWSLDistrosSetup\OpenWSLDistrosSetup.csproj", "{3A53DF94-C8C3-4B52-A65B-4378BB8F9EE9}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SetupItems", "SetupItems\SetupItems.shproj", "{00CC6CD3-06EC-4416-872E-46EB82314F6D}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SetupItems\SetupItems.projitems*{00cc6cd3-06ec-4416-872e-46eb82314f6d}*SharedItemsImports = 13
+		SetupItems\SetupItems.projitems*{3a53df94-c8c3-4b52-a65b-4378bb8f9ee9}*SharedItemsImports = 5
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
