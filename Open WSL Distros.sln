@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31423.177
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Open WSL Distros", "Open WSL Distros\Open WSL Distros.csproj", "{79E3F979-D329-474B-9A28-050A9FE633C4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenWSLDistrosSetup", "OpenWSLDistrosSetup\OpenWSLDistrosSetup.csproj", "{3A53DF94-C8C3-4B52-A65B-4378BB8F9EE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenWSLDistrosSetupWIP", "OpenWSLDistrosSetup\OpenWSLDistrosSetupWIP.csproj", "{3A53DF94-C8C3-4B52-A65B-4378BB8F9EE9}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SetupItems", "SetupItems\SetupItems.shproj", "{00CC6CD3-06EC-4416-872E-46EB82314F6D}"
 EndProject
