@@ -33,11 +33,11 @@ namespace Open_WSL_Distros
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			this.button1 = new System.Windows.Forms.Button();
+			this.ubuntu1 = new System.Windows.Forms.Button();
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
-			this.button2 = new System.Windows.Forms.Button();
-			this.button3 = new System.Windows.Forms.Button();
-			this.button4 = new System.Windows.Forms.Button();
+			this.ubuntu2 = new System.Windows.Forms.Button();
+			this.ubuntu3 = new System.Windows.Forms.Button();
+			this.ubuntu4 = new System.Windows.Forms.Button();
 			this.label3 = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -74,52 +74,55 @@ namespace Open_WSL_Distros
 			this.pictureBox1.TabIndex = 2;
 			this.pictureBox1.TabStop = false;
 			// 
-			// button1
+			// ubuntu1
 			// 
-			this.button1.Location = new System.Drawing.Point(183, 240);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(75, 23);
-			this.button1.TabIndex = 3;
-			this.button1.Text = "Ubuntu";
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(this.button1_Click);
+			this.ubuntu1.Location = new System.Drawing.Point(183, 240);
+			this.ubuntu1.Name = "ubuntu1";
+			this.ubuntu1.Size = new System.Drawing.Size(75, 23);
+			this.ubuntu1.TabIndex = 3;
+			this.ubuntu1.Text = "Ubuntu";
+			this.ubuntu1.UseVisualStyleBackColor = true;
+			this.ubuntu1.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// pictureBox2
 			// 
 			this.pictureBox2.Image = global::Open_WSL_Distros.Properties.Resources.Ubuntu;
-			this.pictureBox2.Location = new System.Drawing.Point(137, 228);
+			this.pictureBox2.Location = new System.Drawing.Point(128, 227);
 			this.pictureBox2.Name = "pictureBox2";
 			this.pictureBox2.Size = new System.Drawing.Size(49, 51);
 			this.pictureBox2.TabIndex = 4;
 			this.pictureBox2.TabStop = false;
 			this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
 			// 
-			// button2
+			// ubuntu2
 			// 
-			this.button2.Location = new System.Drawing.Point(285, 240);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(75, 23);
-			this.button2.TabIndex = 5;
-			this.button2.Text = "button2";
-			this.button2.UseVisualStyleBackColor = true;
+			this.ubuntu2.Location = new System.Drawing.Point(264, 240);
+			this.ubuntu2.Name = "ubuntu2";
+			this.ubuntu2.Size = new System.Drawing.Size(108, 23);
+			this.ubuntu2.TabIndex = 5;
+			this.ubuntu2.Text = "Ubuntu 20.04 LTS";
+			this.ubuntu2.UseVisualStyleBackColor = true;
+			this.ubuntu2.Click += new System.EventHandler(this.button2_Click);
 			// 
-			// button3
+			// ubuntu3
 			// 
-			this.button3.Location = new System.Drawing.Point(388, 240);
-			this.button3.Name = "button3";
-			this.button3.Size = new System.Drawing.Size(75, 23);
-			this.button3.TabIndex = 6;
-			this.button3.Text = "button3";
-			this.button3.UseVisualStyleBackColor = true;
+			this.ubuntu3.Location = new System.Drawing.Point(378, 240);
+			this.ubuntu3.Name = "ubuntu3";
+			this.ubuntu3.Size = new System.Drawing.Size(106, 23);
+			this.ubuntu3.TabIndex = 6;
+			this.ubuntu3.Text = "Ubuntu 18.04 LTS";
+			this.ubuntu3.UseVisualStyleBackColor = true;
+			this.ubuntu3.Click += new System.EventHandler(this.button3_Click);
 			// 
-			// button4
+			// ubuntu4
 			// 
-			this.button4.Location = new System.Drawing.Point(490, 240);
-			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size(75, 23);
-			this.button4.TabIndex = 7;
-			this.button4.Text = "button4";
-			this.button4.UseVisualStyleBackColor = true;
+			this.ubuntu4.Location = new System.Drawing.Point(490, 240);
+			this.ubuntu4.Name = "ubuntu4";
+			this.ubuntu4.Size = new System.Drawing.Size(105, 23);
+			this.ubuntu4.TabIndex = 7;
+			this.ubuntu4.Text = "Ubuntu 16.04 LTS";
+			this.ubuntu4.UseVisualStyleBackColor = true;
+			this.ubuntu4.Click += new System.EventHandler(this.button4_Click);
 			// 
 			// label3
 			// 
@@ -139,11 +142,11 @@ namespace Open_WSL_Distros
 			this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.ClientSize = new System.Drawing.Size(1124, 617);
 			this.Controls.Add(this.label3);
-			this.Controls.Add(this.button4);
-			this.Controls.Add(this.button3);
-			this.Controls.Add(this.button2);
+			this.Controls.Add(this.ubuntu4);
+			this.Controls.Add(this.ubuntu3);
+			this.Controls.Add(this.ubuntu2);
 			this.Controls.Add(this.pictureBox2);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.ubuntu1);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
@@ -163,11 +166,11 @@ namespace Open_WSL_Distros
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.PictureBox pictureBox1;
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button ubuntu1;
 		private System.Windows.Forms.PictureBox pictureBox2;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Button button3;
-		private System.Windows.Forms.Button button4;
+		private System.Windows.Forms.Button ubuntu2;
+		private System.Windows.Forms.Button ubuntu3;
+		private System.Windows.Forms.Button ubuntu4;
 		private System.Windows.Forms.Label label3;
 	}
 }

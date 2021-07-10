@@ -61,5 +61,20 @@ namespace Open_WSL_Distros
 		{
 
 		}
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+			System.Diagnostics.Process.Start("ubuntu2004.exe");
+		}
+
+		private void button3_Click(object sender, EventArgs e)
+		{
+			System.Diagnostics.Process.Start("ubuntu1804.exe");
+		}
+
+		private void button4_Click(object sender, EventArgs e)
+		{
+			System.Diagnostics.Process.Start("ubuntu1604.exe");
+		}
 	}
 }
