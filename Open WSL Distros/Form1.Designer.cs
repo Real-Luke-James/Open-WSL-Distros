@@ -76,7 +76,7 @@ namespace Open_WSL_Distros
 			// 
 			// ubuntu1
 			// 
-			this.ubuntu1.Location = new System.Drawing.Point(183, 240);
+			this.ubuntu1.Location = new System.Drawing.Point(133, 250);
 			this.ubuntu1.Name = "ubuntu1";
 			this.ubuntu1.Size = new System.Drawing.Size(75, 23);
 			this.ubuntu1.TabIndex = 3;
@@ -87,7 +87,7 @@ namespace Open_WSL_Distros
 			// pictureBox2
 			// 
 			this.pictureBox2.Image = global::Open_WSL_Distros.Properties.Resources.Ubuntu;
-			this.pictureBox2.Location = new System.Drawing.Point(128, 227);
+			this.pictureBox2.Location = new System.Drawing.Point(78, 237);
 			this.pictureBox2.Name = "pictureBox2";
 			this.pictureBox2.Size = new System.Drawing.Size(49, 51);
 			this.pictureBox2.TabIndex = 4;
@@ -96,7 +96,7 @@ namespace Open_WSL_Distros
 			// 
 			// ubuntu2
 			// 
-			this.ubuntu2.Location = new System.Drawing.Point(264, 240);
+			this.ubuntu2.Location = new System.Drawing.Point(214, 250);
 			this.ubuntu2.Name = "ubuntu2";
 			this.ubuntu2.Size = new System.Drawing.Size(108, 23);
 			this.ubuntu2.TabIndex = 5;
@@ -106,7 +106,7 @@ namespace Open_WSL_Distros
 			// 
 			// ubuntu3
 			// 
-			this.ubuntu3.Location = new System.Drawing.Point(378, 240);
+			this.ubuntu3.Location = new System.Drawing.Point(328, 250);
 			this.ubuntu3.Name = "ubuntu3";
 			this.ubuntu3.Size = new System.Drawing.Size(106, 23);
 			this.ubuntu3.TabIndex = 6;
@@ -116,7 +116,7 @@ namespace Open_WSL_Distros
 			// 
 			// ubuntu4
 			// 
-			this.ubuntu4.Location = new System.Drawing.Point(490, 240);
+			this.ubuntu4.Location = new System.Drawing.Point(440, 250);
 			this.ubuntu4.Name = "ubuntu4";
 			this.ubuntu4.Size = new System.Drawing.Size(105, 23);
 			this.ubuntu4.TabIndex = 7;
@@ -128,7 +128,7 @@ namespace Open_WSL_Distros
 			// 
 			this.label3.AutoSize = true;
 			this.label3.Font = new System.Drawing.Font("Cascadia Mono", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-			this.label3.Location = new System.Drawing.Point(307, 178);
+			this.label3.Location = new System.Drawing.Point(257, 188);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(78, 25);
 			this.label3.TabIndex = 8;
