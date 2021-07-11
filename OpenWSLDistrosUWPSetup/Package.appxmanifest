@@ -7,13 +7,13 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="4ac53a8e-fe3f-4830-8b82-d2e5f6db0c34"
-    Publisher="CN=LukeV"
+    Name="OpenWSLDistros"
+    Publisher="CN=Real_Luke_James"
     Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>OpenWSLDistrosUWPSetup</DisplayName>
-    <PublisherDisplayName>LukeV</PublisherDisplayName>
+    <DisplayName>WSL Distro Opener</DisplayName>
+    <PublisherDisplayName>Real_Luke_James</PublisherDisplayName>
     <Logo>Images\StoreLogo.png</Logo>
   </Properties>
 
@@ -32,12 +32,19 @@
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
         DisplayName="OpenWSLDistrosUWPSetup"
-        Description="OpenWSLDistrosUWPSetup"
+        Description="Open All of your WSL Distros in One App!"
         BackgroundColor="transparent"
         Square150x150Logo="Images\Square150x150Logo.png"
         Square44x44Logo="Images\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.png" />
+        <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.png"  Square71x71Logo="Images\Square44x44Logo.png" Square310x310Logo="Images\Square150x150Logo.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square310x310Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile >
         <uap:SplashScreen Image="Images\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape"/></uap:InitialRotationPreference>
+        <uap:LockScreen BadgeLogo="Images\Square44x44Logo.png" Notification="badge"/>
       </uap:VisualElements>
     </Application>
   </Applications>
