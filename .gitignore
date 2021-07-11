@@ -364,3 +364,4 @@ FodyWeavers.xsd
 
 # Excluded Folders
 UsefulCodeItems/
+[Bb]uild/
