@@ -59,7 +59,7 @@
     <EntryPointProjectUniqueName>..\Open WSL Distros\Open WSL Distros.csproj</EntryPointProjectUniqueName>
     <GenerateAppInstallerFile>True</GenerateAppInstallerFile>
     <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
-    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
     <GenerateTestArtifacts>True</GenerateTestArtifacts>
     <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
     <AppInstallerUri>file:///D:/Coding/VS2019/Open%2520WSL%2520Distros/bin</AppInstallerUri>
@@ -108,6 +108,7 @@
     <Content Include="Images\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Images\StoreLogo.png" />
     <Content Include="Images\Wide310x150Logo.scale-200.png" />
+    <Content Include="SplashScreen.scale-100.png" />
     <Content Include="Square150x150Logo.scale-100.png" />
     <Content Include="Square300x300Logo.scale-100.png" />
     <Content Include="Square300x300Logo.scale-200.png" />
