@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenWSLDistrosSetupWIP", "O
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SetupItems", "SetupItems\SetupItems.shproj", "{00CC6CD3-06EC-4416-872E-46EB82314F6D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SetupProjects", "SetupProjects", "{AD1C1B3D-31DE-43AD-8234-E0B9D22AA4C9}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SetupItems\SetupItems.projitems*{00cc6cd3-06ec-4416-872e-46eb82314f6d}*SharedItemsImports = 13
@@ -30,6 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A53DF94-C8C3-4B52-A65B-4378BB8F9EE9} = {AD1C1B3D-31DE-43AD-8234-E0B9D22AA4C9}
+		{00CC6CD3-06EC-4416-872E-46EB82314F6D} = {AD1C1B3D-31DE-43AD-8234-E0B9D22AA4C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08266D8E-2B9F-4A8B-B9DE-3F1441A1E7AF}
