@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31424.327
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31423.177
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Open WSL Distros", "Open WSL Distros\Open WSL Distros.csproj", "{79E3F979-D329-474B-9A28-050A9FE633C4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenWSLDistrosSetupWIP", "OpenWSLDistrosSetup\OpenWSLDistrosSetupWIP.csproj", "{3A53DF94-C8C3-4B52-A65B-4378BB8F9EE9}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SetupItems", "SetupItems\SetupItems.shproj", "{00CC6CD3-06EC-4416-872E-46EB82314F6D}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WSLDistroOpenerSetup", "WSLDistroOpenerSetup\WSLDistroOpenerSetup.vdproj", "{EF919E3B-5901-4224-BAC3-F0F1A2D137B6}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -29,8 +27,6 @@ Global
 		{3A53DF94-C8C3-4B52-A65B-4378BB8F9EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A53DF94-C8C3-4B52-A65B-4378BB8F9EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A53DF94-C8C3-4B52-A65B-4378BB8F9EE9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF919E3B-5901-4224-BAC3-F0F1A2D137B6}.Debug|Any CPU.ActiveCfg = Debug
-		{EF919E3B-5901-4224-BAC3-F0F1A2D137B6}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
